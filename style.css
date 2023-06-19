@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+  
+}
+.sidebar{
+    background-color:rgb(111, 221, 215);
+  
+    font-family: 'IBM Plex Serif', serif;
+    height:100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 65px;
+
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration:none;
+    color: black;
+}
+.main{
+    
+    width:90vw;
+}
+.container{
+    display:flex;
+}
+
+.infoContainer{
+
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.devInfo{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    font-size:40px;
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+}
+.hello{
+    font-size:70px;
+}
+
+.name{
+    font-size:60px;
+    font-weight:bold;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.about{
+    font-size:45px;
+}
+.button{
+    margin-top:34px;
+}
+.buttons button{
+    padding:11px 19px;
+    border-radius:28px;
+    color:white;
+    background-color:rgb(24, 218, 31);
+    font-weight:bold;
+    font-size: 22px;
+    margin:0 3px;
+    cursor:pointer;
+
+}
+.buttons button:hover{
+    background-color:rgb(70, 64, 64);
+    color:rgb(223, 28, 28);
+}
+
+.devPic img{
+    height:58vh;
+    margin-right: 10px;
+
+}
+.moreabout{
+    font-size:22px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top:10px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 31px;
+    left: 34px;
+}
+
+.cross{
+    margin-left: 155px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:rgb(23,140,236);
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+    color:rgb(23,140,236);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #e4eef2;
+    padding: 20px;
+  }
+
+  
